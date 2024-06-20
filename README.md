@@ -5,17 +5,26 @@ This is a basic weather app built using Flutter that provides users with real-ti
 Features:
 
 Location-based weather: Retrieves weather data for the user's current location using Geolocator.
-OpenWeatherMap integration: Fetches weather data from the reliable OpenWeatherMap API (you'll need to obtain your own API key).
-User-friendly UI: Presents weather information in a clear and visually appealing manner using Cupertino icons.
-Internationalization (optional): Supports basic formatting and display of temperature, dates, and times based on the user's locale (requires the intl package).
-Dependencies:
 
+OpenWeatherMap integration: Fetches weather data from the reliable OpenWeatherMap API (you'll need to obtain your own API key).
+
+User-friendly UI: Presents weather information in a clear and visually appealing manner using Cupertino icons.
+
+Internationalization (optional): Supports basic formatting and display of temperature, dates, and times based on the user's locale (requires the intl package).
+
+Dependencies:
 cupertino_icons: ^1.0.6 (Provides Cupertino design icons for a native iOS look and feel)
+
 http: ^1.2.1 (Used for making HTTP requests to the OpenWeatherMap API)
+
 intl: ^0.19.0 (Optional, for internationalization)
+
 geolocator: ^12.0.0 (Enables location services for user geolocation)
+
 geocoding: ^3.0.0 (Converts user coordinates into readable addresses)
+
 flutter_launcher_icons: ^0.13.1 (Optional, for creating app icons for different platforms)
+
 Getting Started:
 
 Clone this repository: Use Git to clone this repository locally.
@@ -44,11 +53,17 @@ Additional Notes:
 This README serves as a basic guide. You can further customize the app by adding features like displaying weather icons, wind speed, humidity, or a forecast for multiple days.
 Explore the documentation for each dependency for more advanced usage:
 cupertino_icons: https://pub.dev/packages/cupertino_icons
+
 http: https://pub.dev/packages/http
+
 intl: https://pub.dev/packages/intl
+
 geolocator: https://pub.dev/packages/flutter_use_geolocation
+
 geocoding: https://pub.dev/packages/geocoding
+
 flutter_launcher_icons: https://pub.dev/packages/flutter_launcher_icons
+
 Consider using a state management solution like Provider or BLoC for easier handling of weather data updates across the app.
 Refer to the OpenWeatherMap API documentation (https://openweathermap.org/guide) for details on available weather data and API usage.
 Feel free to customize and extend this app based on your needs and creativity!
